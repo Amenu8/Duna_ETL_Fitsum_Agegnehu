@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="OData Source"
+  DTS:DTSID="{7C729690-8C1A-40E8-A8BF-E495CAD99C75}"
+  DTS:CreationName="ODATA">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::ODataSource_ConnectionString]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="Password">@[$Project::ODataSource_Password]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <ODataConnectionManager
+      UserName="sharepoint@dunatk.com"
+      Url="https://dunatkcom.sharepoint.com/sites/LendingQB/_vti_bin/listdata.svc"
+      ConnectionString="Service Document Url=https://dunatkcom.sharepoint.com/sites/LendingQB/_vti_bin/listdata.svc;Include Atom Elements=Auto;Include Expanded Entities=False;Integrated Security=False;Cookie=&quot;SPOIDCRL=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U1A+VjgsMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwNDUzOWU4OWZAbGl2ZS5jb20sMCMuZnxtZW1iZXJzaGlwfHNoYXJlcG9pbnRAZHVuYXRrLmNvbSwxMzI0MzU2NzQyNTAwMDAwMDAsMTMyNDIxNzU3MDQwMDAwMDAwLDEzMjQzNjUzODI2MDEyNzk2NCwwLjAuMC4wLDQsODVkZGY3ZTktODA2OC00YmI2LTg5NzktNDQ3NjE0NDJlMzlhLCwsODMzOTc2OWYtMzA4Yi0wMDAwLTY3NTItMTBjYWUxNThlYTY0LDgzMzk3NjlmLTMwOGItMDAwMC02NzUyLTEwY2FlMTU4ZWE2NCwsMCwwLDAsLCwsMjY1MDQ2Nzc0Mzk5OTk5OTk5OSwwLCxYNWRzcWREUTdzQjk4V2Z3Mllob3p3cGNvOGw2aEF2T1RIQ0EzdTE0UlBGV1hZOUsxOUZVaEQ2N2U5TGRldjAzdU9CTkFJQzFqc0xVcVBmelpOQVplNXlZcUNjb1hyL2p2ZjJKcEpZOTQvcnl4RUtOc0NvQlJxN2Y5RG1PRk5DMUVNQXQ0UnJxZFBORWZzVVd5clBTekVOQlpLVW5aZklJN0s2bW9JOUtUZ1Qwalg2ODhXaTcvcStNZG5ySGJ4K1pjMVFxelBPZzJqaXBnSGoxUFVCT3NucDc1Z2pQMG95QzZBSzhUandGdXNmVEp4eFZFK1ptVXovYVZSY2Z6cGhGWk5ybVdqcm9vRENROUpNaCtJdXl5SGhHbkQxdGRDUTdvK3FyNTBRN09PK2dySm40ZzBnbk1sNk1uQ2FlU3I5YVhhYTVHREk1RWVyTVlOZ256Z2RvaWc9PTwvU1A+&quot;;User ID=sharepoint@dunatk.com;Persist Security Info=False;Time Out=600;Schema Sample Size=25;Retry Count=5;Retry Sleep=100;Keep Alive=False;Max Received Message Size=4398046511104"
+      MicrosoftOnlineServicesAuth="True"
+      AuthType="MicrosoftOnlineService">
+      <Password
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA32Lc1rOI7EyBD4Ept6zvxAAAAAACAAAAAAAQZgAAAAEAACAAAADxx7s+4U2GQ9Q90ayshS28xfcmGQqHLsA1MIMzBu8XTQAAAAAOgAAAAAIAACAAAACwruBjtcoiIPuaZMefXi81ADqKFSV8QwKl3W1Yc0KJrkAAAABeVVsz0ZiNmKyosaplN6/xHqoC7rDhWJvgFgcBXb35OtLT7Km8RDVPzrr737Qu5WowIWZW6yMy+eUWTi9yLpBLQAAAAE8RHwwO+wVJG26m4NI3czC3yzvLFHCIazOCO22rfOsfYLX/Wh0tmaABVuXYKGJ/QhcUQk2E1PgyZ1XPufDRYIU=</Password>
+    </ODataConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

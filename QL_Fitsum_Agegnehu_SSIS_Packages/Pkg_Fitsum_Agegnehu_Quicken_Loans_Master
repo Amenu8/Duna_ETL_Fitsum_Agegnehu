@@ -5,14 +5,14 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-L2Q54LN"
   DTS:CreatorName="DESKTOP-L2Q54LN\Owner"
-  DTS:DTSID="{ABE31655-243D-450A-A802-0C07553EB313}"
+  DTS:DTSID="{6A6F35BB-1985-4365-9FC5-473A511EE4D7}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.123"
   DTS:LocaleID="1033"
-  DTS:ObjectName="Package1"
+  DTS:ObjectName="Pkg_Fitsum_Agegnehu_LendingWise"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{68CB3190-9061-46F7-B50C-CA02C7FC3265}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{B5A61B40-858B-48E0-A7F7-5B400D1B0DFC}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
