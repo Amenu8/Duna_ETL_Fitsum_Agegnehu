@@ -38,7 +38,7 @@
         SSIS:Name="Sensitive">1</SSIS:Property>
       <SSIS:Property
         SSIS:Name="Value"
-        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA32Lc1rOI7EyBD4Ept6zvxAAAAAACAAAAAAAQZgAAAAEAACAAAACC+KE6DdYx3oehJceBNTgHxqj9D1avwA546+XxFTVgiQAAAAAOgAAAAAIAACAAAAAR5m2qLZtpu5Iz9YvuAOhKpDwZqoui365Xh7vV3ojPt5AAAACvpbyDyhEdqYmYSC8+XgzjL6tM4e6YktXljP43MhN9ITv/xQi2C1HuGz2CYvvWP7cAxMuUlvOc40SeLyR5YeUd4++WJAb8Rhw3/JnmIOejLrDGoMT2nScajzCOIc76VDpy9fiOsnCtNE7MdZotiWqO2txtbeGNLD+XT76HpRktUjfgsy7BdZebDGYn0fw5qKdAAAAAt1sJXj0SBHiroOc3VCnMo9q6F2Hm+BafO1XeEWRsZbKVJnf/hC6NGsHrKn6xwY850HJmS/SbCKw/9bO87EHUMQ==</SSIS:Property>
+        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA32Lc1rOI7EyBD4Ept6zvxAAAAAACAAAAAAAQZgAAAAEAACAAAAB6FU9q9Lq5bKTyYpNu7ov6pbBSPccJmjdcVeMdVEDoGwAAAAAOgAAAAAIAACAAAABF/5MPRP6LHt9hFtOxSiqWets98oWK70YtHA/ZD6SRHpAAAAC7i6LsOBkUTSCOzAflSoUTJFppBGa/XRUZi1U6jZfMqTpW0x+XMy1oPd91yRGoVzHb4+IQ6G0hLgKOdLmlRftxmnguS2JcVUy65XVVG4ejgbGedDqyvOPg5V+QKv3WPiPksIFjX3xoOJOjN5+KCZDdW2XDgwEGA18RbzY6hzNnw1WhUxYrpyYbkaJh5olwaMdAAAAAoEdCqNmKXBzQuo9vq2LPBtgXywtXC8d1RBcPanLcmJyl3pb9NR5zMTmQ0WZuZJUkiZBOnk7bBt2q6KrFBcmbFg==</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
@@ -60,6 +60,27 @@
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
         SSIS:Name="Value">C:\Users\Owner\Downloads\MortgageInsuranceCompany Cross Walk.txt</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="DataType">18</SSIS:Property>
+    </SSIS:Properties>
+  </SSIS:Parameter>
+  <SSIS:Parameter
+    SSIS:Name="SalesforceConnectionManager_ConnectionString">
+    <SSIS:Properties>
+      <SSIS:Property
+        SSIS:Name="ID">{795cc7d9-3775-48d7-bf5b-51431cf72133}</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="CreationName"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Description"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Required">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Sensitive">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Value">InstanceType=Sandbox;AuthenticationType=AuthorizationCode;ServiceEndpoint=SOAP;ServiceUrl=https://test.salesforce.com/services/Soap/u/48.0;UserName=salesforce@dunallc.com.sandboxdev;ServiceTimeout=120;ProxyMode=NoProxy;ProxyServer=;ProxyServerPort=0;ProxyUsername=;RetryOnIntermittentErrors=True</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
