@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Pkg_Fitsum_Agegnehu_Uber_Writer"
   DTS:PackageType="5"
-  DTS:VersionBuild="155"
-  DTS:VersionGUID="{CE5E457B-7F03-4DAF-B1F8-C2CD13AF46BD}">
+  DTS:VersionBuild="156"
+  DTS:VersionGUID="{C65368CE-A54C-4592-A74F-49F34BDD1B51}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -66,7 +66,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varLastModifiedDate">
       <DTS:VariableValue
-        DTS:DataType="7">9/16/2020 8:52:48 PM</DTS:VariableValue>
+        DTS:DataType="7">9/16/2020 11:19:01 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -132,7 +132,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varTimeStamp">
       <DTS:VariableValue
-        DTS:DataType="7">9/16/2020 8:52:48 PM</DTS:VariableValue>
+        DTS:DataType="7">9/16/2020 11:19:01 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""

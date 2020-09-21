@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Pkg_Fitsum_Agegnehu_Uber_Writer"
   DTS:PackageType="5"
-  DTS:VersionBuild="154"
-  DTS:VersionGUID="{AB09CEAF-6FB3-44AF-B90E-52D13E4DCDB6}">
+  DTS:VersionBuild="156"
+  DTS:VersionGUID="{C65368CE-A54C-4592-A74F-49F34BDD1B51}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -66,7 +66,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varLastModifiedDate">
       <DTS:VariableValue
-        DTS:DataType="7">9/16/2020 8:31:41 PM</DTS:VariableValue>
+        DTS:DataType="7">9/17/2020 8:40:58 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -132,7 +132,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varTimeStamp">
       <DTS:VariableValue
-        DTS:DataType="7">9/16/2020 8:31:41 PM</DTS:VariableValue>
+        DTS:DataType="7">9/17/2020 8:40:58 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -13994,7 +13994,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <NodeLayout
           Size="154.666666666667,42.6666666666667"
           Id="Package\Data Flow Task_UberWriter_ADO_NET_Source\Derived Column"
-          TopLeft="515.499992847443,252.166662792365" />
+          TopLeft="500.916659731418,269.499995815754" />
         <NodeLayout
           Size="156,42.6666666666667"
           Id="Package\Data Flow Task_UberWriter_ADO_NET_Source\Conditional Split"
@@ -14039,18 +14039,24 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           TopLeft="539.041660057381,332.316662432055" />
         <EdgeLayout
           Id="Package\Data Flow Task_UberWriter_ADO_NET_Source.Paths[Derived Column Output]"
-          TopLeft="596.604159785745,294.833329459031">
+          TopLeft="578.249993064752,312.166662482421">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,37.4833329730234"
+              EndConnector="-39.2083330073706,41.4833332829675"
               Start="0,0"
-              End="0,29.9833329730234">
+              End="-31.7083330073706,41.4833332829675">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,29.9833329730234" />
+                    End="0,37.4833332829675" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,37.4833332829675"
+                    Point2="0,41.4833332829675"
+                    Point3="-4,41.4833332829675" />
+                  <mssgle:LineSegment
+                    End="-31.7083330073706,41.4833332829675" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14207,33 +14213,33 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-16.9166668715574,25.699998241067"
+              EndConnector="-31.4999999875821,43.0333312644562"
               Start="0,0"
-              End="-16.9166668715574,18.199998241067">
+              End="-31.4999999875821,35.5333312644562">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,8.84999912053351" />
+                    End="0,17.5166656322281" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,8.84999912053351"
-                    Point2="0,12.8499991205335"
-                    Point3="-4,12.8499991205335" />
+                    Point1="0,17.5166656322281"
+                    Point2="0,21.5166656322281"
+                    Point3="-4,21.5166656322281" />
                   <mssgle:LineSegment
-                    End="-12.9166668715574,12.8499991205335" />
+                    End="-27.4999999875821,21.5166656322281" />
                   <mssgle:CubicBezierSegment
-                    Point1="-12.9166668715574,12.8499991205335"
-                    Point2="-16.9166668715574,12.8499991205335"
-                    Point3="-16.9166668715574,16.8499991205335" />
+                    Point1="-27.4999999875821,21.5166656322281"
+                    Point2="-31.4999999875821,21.5166656322281"
+                    Point3="-31.4999999875821,25.5166656322281" />
                   <mssgle:LineSegment
-                    End="-16.9166668715574,18.199998241067" />
+                    End="-31.4999999875821,35.5333312644562" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-74.0147201545287,17.8499991205335,131.1127734375,10.7841796875"
+              BoundingBox="-81.3063867125411,26.5166656322281,131.1127734375,10.7841796875"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>

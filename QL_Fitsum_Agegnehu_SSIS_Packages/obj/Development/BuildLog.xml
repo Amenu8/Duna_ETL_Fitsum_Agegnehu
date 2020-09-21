@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>QL_Fitsum_Agegnehu_SSIS_Packages</Name>
-    <LastWriteTime>2020-09-16T00:01:31.2936029Z</LastWriteTime>
+    <LastWriteTime>2020-09-20T21:21:39.9521161Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -18,7 +18,12 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Pkg_Fitsum_Agegnehu_Uber_Writer.dtsx</Name>
-      <LastWriteTime>2020-09-17T00:31:33.2400678Z</LastWriteTime>
+      <LastWriteTime>2020-09-17T23:46:25.4983968Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Pkg_Fitsum_Agegnehu_LendingPad.dtsx</Name>
+      <LastWriteTime>2020-09-21T00:00:30.539137Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="FTP Connection Manager"
+  DTS:DTSID="{1E284933-FA5E-44F6-96D4-B8D146466A38}"
+  DTS:CreationName="FTP">
+  <DTS:PropertyExpression
+    DTS:Name="ChunkSize">@[$Project::FTPConnectionManager_ChunkSize]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="ServerPassword">@[$Project::FTPConnectionManager_ServerPassword]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="UsePassiveMode">@[$Project::FTPConnectionManager_UsePassiveMode]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="ftp.drivehq.com:21">
+      <DTS:FtpConnection
+        DTS:ServerName="ftp.drivehq.com"
+        DTS:ServerUserName="dunatek"
+        DTS:UsePassiveMode="True">
+        <DTS:Property
+          DTS:Name="ServerPassword"
+          Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA32Lc1rOI7EyBD4Ept6zvxAAAAAACAAAAAAAQZgAAAAEAACAAAACREPjqrN2jG7E7sbRvH6qQipPXp0expz4eY/2EsVQg/AAAAAAOgAAAAAIAACAAAABzX3kp0Mj9XmcT1u8SLYU9mvPkiRiBdaACS4pq76bk6ZAAAAAfEpDfAZpW9Bmooy/fmjsVD3pBHzwLLXIaNLZ4YeNU+QbdbfWVvbXwCyPVK0wpOeSU1dIrltJkpUtqxIsXt577RVCbg7f6FAqi0vqKQpXWt7DC3TFFTY1vPRDodrIwLcUfBhTWruTCMdK2TWgf3cT93TlngWG43eeCOZSR0X3XWR7Y8G4TEZyrd+Max/4aCDJAAAAAYdIrDxyRVkyvN6FJVljT7Im974K5AcnRwKzzuqJrqXtEpdwgmczlXQG3XSgf5i2uX2CaPaiDv7WcrwH5lxV5CQ==</DTS:Property>
+      </DTS:FtpConnection>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
