@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Salesforce Connection Manager"
+  DTS:DTSID="{001C2F32-502D-4FF6-BC90-6B990B82DC7A}"
+  DTS:CreationName="Salesforce (KingswaySoft)">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::SalesforceConnectionManager_ConnectionString]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <SalesforceConnectionManager
+      ConnectionString="InstanceType=Sandbox;AuthenticationType=AuthorizationCode;ServiceEndpoint=SOAP;ServiceUrl=https://test.salesforce.com/services/Soap/u/48.0;TokenPath=;ClientId=;RedirectUri=;CertificateThumbprint=;UserName=salesforce@dunallc.com.sandboxdev;ServiceTimeout=120;ProxyMode=NoProxy;ProxyServer=;ProxyServerPort=0;ProxyUsername=;RetryOnIntermittentErrors=True">
+      <Password
+        Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA32Lc1rOI7EyBD4Ept6zvxAAAAAACAAAAAAAQZgAAAAEAACAAAAApbErVWo12nDA9uo0zaBKlDYuQM9IW+kKOuwvN2N+0LwAAAAAOgAAAAAIAACAAAABPbF/V8qdX1vLYy1k2oQeYRog1QCJOlT9hejTRWhhJ7mAAAADDQipQQRoeH937uRoYUzG94GfguHHSqGcttbCF7qyug5Z/b8B6CPRGlKVi/Y2upMSLwg/w3sFMIyFsr4Lwd/bvQAHAEW1Ne9PS1jdhAUAxUYR3u3DX0vQGdKb1rpwXiSpAAAAAHlfl7eWw9jkNfH285KMrXINEnaOfCVFyUmILOkr43ytsWN2MjCnbHlGAPaqjmsyIXfsUCQIeDku4Xn08BNPT3Q==</Password>
+      <SecurityToken
+        Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA32Lc1rOI7EyBD4Ept6zvxAAAAAACAAAAAAAQZgAAAAEAACAAAADNt82fWUXuk+hFFi2Oq9hXzcEItLvPvqHOu1y007zpYAAAAAAOgAAAAAIAACAAAAC3nLAdFKopDOu8e3P/2JzG1mIIq/d7o6k7tgFyztS1o3AAAAD1APYJQYPjsi7P6i/1ZhN1MCjv0uwp6HmTOa0+0RNSx8M4Wm/HZGnROsA+e0guYo5NJJ5eskHeVMOEp1iQRO8Dg2iHydeDRTSB5uTlw2iqW0rd5JrNR0gLF9B6qyxz9MxEurnZsYRYXpRvtpKJZOFIQAAAAGpmqNO+oVbORqp65OovCRLpKUK+/uapDRSkv9mJ6/aDA0w056YWpAhZocB/SdkmuuYZaYscYyPnKLTNO92M5i0=</SecurityToken>
+    </SalesforceConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

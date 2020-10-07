@@ -112,7 +112,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varFullArchiveFolder">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Project2020\BulkFiles\Archive\LendingPad_2020-10-01-20-43-11.zip</DTS:VariableValue>
+        DTS:DataType="8">C:\Project2020\BulkFiles\Archive\LendingPad_2020-10-01-20-46-45.zip</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -132,7 +132,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varLastModifiedDate">
       <DTS:VariableValue
-        DTS:DataType="7">10/1/2020 8:43:11 PM</DTS:VariableValue>
+        DTS:DataType="7">10/1/2020 8:46:45 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -216,7 +216,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varTimeStamp">
       <DTS:VariableValue
-        DTS:DataType="7">10/1/2020 8:43:11 PM</DTS:VariableValue>
+        DTS:DataType="7">10/1/2020 8:46:45 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -256,7 +256,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Execute SQL Task_RunLog"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:EventHandlers>
         <DTS:EventHandler
@@ -368,7 +368,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Execute Process Task"
           DTS:TaskContact="Execute Process Task;Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:PropertyExpression
             DTS:Name="Arguments">"X "+  @[User::varZipedFile] + " -o" +  @[User::varUnzipFolder]</DTS:PropertyExpression>
@@ -381,13 +381,13 @@
         <DTS:Executable
           DTS:refId="Package\Foreach Loop Container\File System Task_Move_Rename"
           DTS:CreationName="Microsoft.FileSystemTask"
-          DTS:Description="C:\Project2020\BulkFiles\Archive\LendingPad_2020-10-01-20-43-11.zip"
+          DTS:Description="C:\Project2020\BulkFiles\Archive\LendingPad_2020-10-01-20-46-45.zip"
           DTS:DTSID="{93BED640-75A2-4D26-8204-86BBE81C3AC7}"
           DTS:ExecutableType="Microsoft.FileSystemTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="File System Task_Move_Rename"
           DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:PropertyExpression
             DTS:Name="Description">@[User::varArchive] +"\\"+REPLACE( @[User::varFileName],".zip","_")+REPLACE(SUBSTRING(REPLACE((DT_WSTR,50)GETDATE()," ","-"),1,19),":","-")+".zip"</DTS:PropertyExpression>
@@ -1088,7 +1088,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Script Task_MissingFileNotifcationEmail"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <ScriptProject
@@ -13725,7 +13725,7 @@ where [refTable].[MarketSourceCode] = ?</property>
           DTS:LocaleID="-1"
           DTS:ObjectName="Execute SQLTask_DeleteLendingpadSourceRecord"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -13742,7 +13742,7 @@ where [refTable].[MarketSourceCode] = ?</property>
           DTS:LocaleID="-1"
           DTS:ObjectName="Execute SQLTask_MAXLastModifiedDate"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -13760,13 +13760,13 @@ where [refTable].[MarketSourceCode] = ?</property>
         <DTS:Executable
           DTS:refId="Package\Sequence Container\FileSystemTask_DeleteLendingPadJSONFile"
           DTS:CreationName="Microsoft.FileSystemTask"
-          DTS:Description="C:\Project2020\BulkFiles\Archive\LendingPad_2020-10-01-20-43-11.zip"
+          DTS:Description="C:\Project2020\BulkFiles\Archive\LendingPad_2020-10-01-20-46-45.zip"
           DTS:DTSID="{948CD8C9-761D-4B7F-B432-DFE7A336BDDC}"
           DTS:ExecutableType="Microsoft.FileSystemTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="FileSystemTask_DeleteLendingPadJSONFile"
           DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:PropertyExpression
             DTS:Name="Description">@[User::varArchive] +"\\"+REPLACE( @[User::varFileName],".zip","_")+REPLACE(SUBSTRING(REPLACE((DT_WSTR,50)GETDATE()," ","-"),1,19),":","-")+".zip"</DTS:PropertyExpression>

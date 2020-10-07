@@ -2,13 +2,13 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>QL_Fitsum_Agegnehu_SSIS_Packages</Name>
-    <LastWriteTime>2020-10-02T01:22:23.5899595Z</LastWriteTime>
+    <LastWriteTime>2020-10-06T02:12:32.8617659Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>Pkg_Fitsum_Agegnehu_LendingQB.dtsx</Name>
-      <LastWriteTime>2020-09-08T23:40:51.7835596Z</LastWriteTime>
+      <LastWriteTime>2020-10-07T00:34:45.5932088Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
@@ -28,7 +28,7 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Pkg_Fitsum_Agegnehu_SimpleNexus.dtsx</Name>
-      <LastWriteTime>2020-10-02T00:37:44.5943344Z</LastWriteTime>
+      <LastWriteTime>2020-10-07T00:44:31.7838708Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
