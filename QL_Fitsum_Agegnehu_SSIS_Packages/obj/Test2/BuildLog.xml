@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>QL_Fitsum_Agegnehu_SSIS_Packages</Name>
-    <LastWriteTime>2020-10-06T02:12:32.8617659Z</LastWriteTime>
+    <LastWriteTime>2020-10-07T22:26:41.6168384Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -28,7 +28,7 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Pkg_Fitsum_Agegnehu_SimpleNexus.dtsx</Name>
-      <LastWriteTime>2020-10-07T00:44:31.7838708Z</LastWriteTime>
+      <LastWriteTime>2020-10-07T22:26:41.3628198Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

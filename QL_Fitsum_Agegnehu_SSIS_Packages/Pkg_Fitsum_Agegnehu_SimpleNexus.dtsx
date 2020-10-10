@@ -7,12 +7,12 @@
   DTS:CreatorName="DESKTOP-L2Q54LN\Owner"
   DTS:DTSID="{BF22A932-495C-42A1-8F03-17422F65C834}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.2000.123"
+  DTS:LastModifiedProductVersion="15.0.2000.132"
   DTS:LocaleID="1033"
   DTS:ObjectName="Pkg_Fitsum_Agegnehu_SimpleNexus"
   DTS:PackageType="5"
-  DTS:VersionBuild="329"
-  DTS:VersionGUID="{44861B30-C420-4AAF-8EEE-B3614A20C345}">
+  DTS:VersionBuild="359"
+  DTS:VersionGUID="{94924CA8-11C6-4F57-BB4E-5514BB5D40A9}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -23,7 +23,7 @@
       DTS:ObjectName="DESKTOP-L2Q54LN\DEV.QLSSISLOG">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=DESKTOP-L2Q54LN\DEV;Initial Catalog=QLSSISLOG;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=DESKTOP-L2Q54LN;Initial Catalog=QLSSISLOG;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -33,7 +33,7 @@
       DTS:ObjectName="DESKTOP-L2Q54LN\DEV.SimpleNexus">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=DESKTOP-L2Q54LN\DEV;Initial Catalog=SimpleNexus;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=DESKTOP-L2Q54LN;Initial Catalog=SimpleNexus;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -43,27 +43,7 @@
       DTS:ObjectName="DESKTOP-L2Q54LN\DEV.STGQL">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=DESKTOP-L2Q54LN\DEV;Initial Catalog=STGQL;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-L2Q54LN\DEV.STGQL 1]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{84F0B057-5BC7-4267-A45B-6B20FD3E5A62}"
-      DTS:ObjectName="DESKTOP-L2Q54LN\DEV.STGQL 1">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=DESKTOP-L2Q54LN\DEV;Initial Catalog=STGQL;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-L2Q54LN\NEW2019.SimpleNexus]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{E4B75458-1895-40A3-96C4-55017011CCFE}"
-      DTS:ObjectName="DESKTOP-L2Q54LN\NEW2019.SimpleNexus">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=DESKTOP-L2Q54LN\NEW2019;Initial Catalog=SimpleNexus;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=DESKTOP-L2Q54LN;Initial Catalog=STGQL;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -132,7 +112,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varFullArchiveFolder">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Project2020\BulkFiles\Archive\SimpleNexus_2020-10-06-20-49-13.zip</DTS:VariableValue>
+        DTS:DataType="8">C:\Project2020\BulkFiles\Archive\SimpleNexus_2020-10-09-00-43-21.zip</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -152,7 +132,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varLastModifiedDate">
       <DTS:VariableValue
-        DTS:DataType="7">10/6/2020 8:49:14 PM</DTS:VariableValue>
+        DTS:DataType="7">10/9/2020 12:43:22 AM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -236,7 +216,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="varTimeStamp">
       <DTS:VariableValue
-        DTS:DataType="7">10/6/2020 8:49:14 PM</DTS:VariableValue>
+        DTS:DataType="7">10/9/2020 12:43:22 AM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -276,7 +256,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Execute SQL Task_RunLog"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:EventHandlers>
         <DTS:EventHandler
@@ -388,7 +368,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Execute Process Task"
           DTS:TaskContact="Execute Process Task;Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:PropertyExpression
             DTS:Name="Arguments">"X "+  @[User::varZipedFile] + " -o" +  @[User::varUnzipFolder]</DTS:PropertyExpression>
@@ -401,13 +381,13 @@
         <DTS:Executable
           DTS:refId="Package\Foreach Loop Container\File System Task_Move_Rename"
           DTS:CreationName="Microsoft.FileSystemTask"
-          DTS:Description="C:\Project2020\BulkFiles\Archive\SimpleNexus_2020-10-06-20-49-13.zip"
+          DTS:Description="C:\Project2020\BulkFiles\Archive\SimpleNexus_2020-10-09-00-43-21.zip"
           DTS:DTSID="{34730A91-0443-43A7-ADB4-87671BBA76E9}"
           DTS:ExecutableType="Microsoft.FileSystemTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="File System Task_Move_Rename"
           DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:PropertyExpression
             DTS:Name="Description">@[User::varArchive] +"\\"+REPLACE( @[User::varFileName],".zip","_")+REPLACE(SUBSTRING(REPLACE((DT_WSTR,50)GETDATE()," ","-"),1,19),":","-")+".zip"</DTS:PropertyExpression>
@@ -473,7 +453,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="FTP _Task_simpleNexus"
       DTS:TaskContact="FTP Task; Microsoft Corporation; SQL Server 2019; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <FtpData
@@ -504,36 +484,6 @@
           Language="CSharp"
           ReadOnlyVariables="User::varFileName,User::varLocalFolder"
           ReadWriteVariables="User::varFileExistsFileFlag">
-          <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_45d82190b6134fb690ac61a5b8898a08")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_45d82190b6134fb690ac61a5b8898a08")]
-[assembly: AssemblyCopyright("Copyright @  2020")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -739,6 +689,35 @@ using System.Runtime.CompilerServices;
   </ProjectExtensions>
 </Project>]]></ProjectItem>
           <ProjectItem
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_45d82190b6134fb690ac61a5b8898a08.Properties.Settings.get_Default():ST_45d82190b6134fb690ac61a5b8898a08.Properties.Sett" +
+    "ings")]
+
+namespace ST_45d82190b6134fb690ac61a5b8898a08.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
+          <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
 /* The Script Task allows you to perform virtually any operation that can be accomplished in
@@ -897,34 +876,35 @@ namespace ST_45d82190b6134fb690ac61a5b8898a08
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
 //
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_45d82190b6134fb690ac61a5b8898a08")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_45d82190b6134fb690ac61a5b8898a08")]
+[assembly: AssemblyCopyright("Copyright @  2020")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
 
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_45d82190b6134fb690ac61a5b8898a08.Properties.Settings.get_Default():ST_45d82190b6134fb690ac61a5b8898a08.Properties.Sett" +
-    "ings")]
-
-namespace ST_45d82190b6134fb690ac61a5b8898a08.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Settings.settings"
             Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
@@ -1131,7 +1111,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Script Task_MissingFileNotifcationEmail"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <ScriptProject
@@ -1141,6 +1121,15 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Language="CSharp"
           ReadOnlyVariables="System::PackageName,System::StartTime,User::varFileName,User::varFromEmail,User::varLocalFolder,User::varPassword,User::varSmtpClient,User::varSmtpServerPort,User::varSubject,User::varToEmail"
           ReadWriteVariables="User::varBody">
+          <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -1347,35 +1336,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
   </ProjectExtensions>
 </Project>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_7edfe4dab2a64aee97f1223d4ccb6969.Properties.Settings.get_Default():ST_7edfe4dab2a64aee97f1223d4ccb6969.Properties.Sett" +
-    "ings")]
-
-namespace ST_7edfe4dab2a64aee97f1223d4ccb6969.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
-          <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
 /* The Script Task allows you to perform virtually any operation that can be accomplished in
@@ -1545,6 +1505,35 @@ namespace ST_7edfe4dab2a64aee97f1223d4ccb6969
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_7edfe4dab2a64aee97f1223d4ccb6969.Properties.Settings.get_Default():ST_7edfe4dab2a64aee97f1223d4ccb6969.Properties.Sett" +
+    "ings")]
+
+namespace ST_7edfe4dab2a64aee97f1223d4ccb6969.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
+          <ProjectItem
             Name="Properties\AssemblyInfo.cs"
             Encoding="UTF8"><![CDATA[using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -1574,15 +1563,6 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
-          <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -2540,6 +2520,90 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                   </outputs>
                 </component>
                 <component
+                  refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column 1"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+                  name="Derived Column 1"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column 1.Inputs[Derived Column Input]"
+                      description="Input to the Derived Column Transformation"
+                      name="Derived Column Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column 1.Inputs[Derived Column Input].Columns[Insurance_Company]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="128"
+                          cachedName="Insurance_Company"
+                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Insurance_Company]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column 1.Outputs[Derived Column Output]"
+                      description="Default Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      name="Derived Column Output"
+                      synchronousInputId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column 1.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column 1.Outputs[Derived Column Output].Columns[INSURANCE_COMPANY]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          length="128"
+                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column 1.Outputs[Derived Column Output].Columns[INSURANCE_COMPANY]"
+                          name="INSURANCE_COMPANY"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">(DT_STR,128,1252)#{Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Insurance_Company]}</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">(DT_STR,128,1252)Insurance_Company</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column 1.Outputs[Derived Column Error Output]"
+                      description="Error Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Derived Column Error Output"
+                      synchronousInputId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column 1.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
                   refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column 4"
                   componentClassID="Microsoft.DerivedColumn"
                   contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
@@ -2681,8 +2745,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                   <connections>
                     <connection
                       refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Connections[OleDbConnection]"
-                      connectionManagerID="Package.ConnectionManagers[DESKTOP-L2Q54LN\DEV.STGQL]"
-                      connectionManagerRefId="Package.ConnectionManagers[DESKTOP-L2Q54LN\DEV.STGQL]"
+                      connectionManagerID="{7A61B3E5-C379-4C17-97D0-2B2819D9BAB7}:external"
+                      connectionManagerRefId="Project.ConnectionManagers[DESKTOP-L2Q54LN.STGQL]"
                       description="Microsoft SQL Server connection and database in which the fuzzy lookup reference table is located and where the fuzzy match index table will be stored and accessed."
                       name="OleDbConnection" />
                   </connections>
@@ -3102,6 +3166,207 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                           cachedLength="128"
                           cachedName="UnderwriterLastName"
                           lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column.Outputs[Derived Column Output].Columns[UnderwriterLastName]">
+                          <properties>
+                            <property
+                              dataType="System.Null"
+                              description="Name of the reference table column with which the input column should be matched."
+                              name="JoinToReferenceColumn"
+                              state="escaped" />
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies whether the match is a fuzzy or an exact match."
+                              name="JoinType"
+                              typeConverter="tcJoinType">2</property>
+                            <property
+                              dataType="System.Single"
+                              description="Specifies the minimum textual similarity required between input and fuzzy matched records on values in this particular join column.  Must be a floating point value between 0.0 and 1.0."
+                              name="MinSimilarity">0</property>
+                            <property
+                              dataType="System.UInt32"
+                              description="Specifies the comparison options for character data. The options are those supported by the FoldString function."
+                              name="FuzzyComparisonFlags"
+                              typeConverter="tcComparisonFlags">1</property>
+                            <property
+                              dataType="System.UInt32"
+                              description="Flags to FoldString that should be used when comparing whether two strings are equivalent."
+                              name="FuzzyComparisonFlagsEx"
+                              typeConverter="tcComparisonFlagsEx">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Inputs[Fuzzy Lookup Input].Columns[DC_MarketSource]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="7"
+                          cachedName="DC_MarketSource"
+                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column.Outputs[Derived Column Output].Columns[DC_MarketSource]">
+                          <properties>
+                            <property
+                              dataType="System.Null"
+                              description="Name of the reference table column with which the input column should be matched."
+                              name="JoinToReferenceColumn"
+                              state="escaped" />
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies whether the match is a fuzzy or an exact match."
+                              name="JoinType"
+                              typeConverter="tcJoinType">2</property>
+                            <property
+                              dataType="System.Single"
+                              description="Specifies the minimum textual similarity required between input and fuzzy matched records on values in this particular join column.  Must be a floating point value between 0.0 and 1.0."
+                              name="MinSimilarity">0</property>
+                            <property
+                              dataType="System.UInt32"
+                              description="Specifies the comparison options for character data. The options are those supported by the FoldString function."
+                              name="FuzzyComparisonFlags"
+                              typeConverter="tcComparisonFlags">1</property>
+                            <property
+                              dataType="System.UInt32"
+                              description="Flags to FoldString that should be used when comparing whether two strings are equivalent."
+                              name="FuzzyComparisonFlagsEx"
+                              typeConverter="tcComparisonFlagsEx">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Inputs[Fuzzy Lookup Input].Columns[DC_LoanOfficer]"
+                          cachedDataType="wstr"
+                          cachedLength="101"
+                          cachedName="DC_LoanOfficer"
+                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column.Outputs[Derived Column Output].Columns[DC_LoanOfficer]">
+                          <properties>
+                            <property
+                              dataType="System.Null"
+                              description="Name of the reference table column with which the input column should be matched."
+                              name="JoinToReferenceColumn"
+                              state="escaped" />
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies whether the match is a fuzzy or an exact match."
+                              name="JoinType"
+                              typeConverter="tcJoinType">2</property>
+                            <property
+                              dataType="System.Single"
+                              description="Specifies the minimum textual similarity required between input and fuzzy matched records on values in this particular join column.  Must be a floating point value between 0.0 and 1.0."
+                              name="MinSimilarity">0</property>
+                            <property
+                              dataType="System.UInt32"
+                              description="Specifies the comparison options for character data. The options are those supported by the FoldString function."
+                              name="FuzzyComparisonFlags"
+                              typeConverter="tcComparisonFlags">1</property>
+                            <property
+                              dataType="System.UInt32"
+                              description="Flags to FoldString that should be used when comparing whether two strings are equivalent."
+                              name="FuzzyComparisonFlagsEx"
+                              typeConverter="tcComparisonFlagsEx">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Inputs[Fuzzy Lookup Input].Columns[FundedTier]"
+                          cachedDataType="i4"
+                          cachedName="FundedTier"
+                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column.Outputs[Derived Column Output].Columns[FundedTier]">
+                          <properties>
+                            <property
+                              dataType="System.Null"
+                              description="Name of the reference table column with which the input column should be matched."
+                              name="JoinToReferenceColumn"
+                              state="escaped" />
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies whether the match is a fuzzy or an exact match."
+                              name="JoinType"
+                              typeConverter="tcJoinType">2</property>
+                            <property
+                              dataType="System.Single"
+                              description="Specifies the minimum textual similarity required between input and fuzzy matched records on values in this particular join column.  Must be a floating point value between 0.0 and 1.0."
+                              name="MinSimilarity">0</property>
+                            <property
+                              dataType="System.UInt32"
+                              description="Specifies the comparison options for character data. The options are those supported by the FoldString function."
+                              name="FuzzyComparisonFlags"
+                              typeConverter="tcComparisonFlags">1</property>
+                            <property
+                              dataType="System.UInt32"
+                              description="Flags to FoldString that should be used when comparing whether two strings are equivalent."
+                              name="FuzzyComparisonFlagsEx"
+                              typeConverter="tcComparisonFlagsEx">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Inputs[Fuzzy Lookup Input].Columns[DC_LeadId]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="132"
+                          cachedName="DC_LeadId"
+                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column.Outputs[Derived Column Output].Columns[DC_LeadId]">
+                          <properties>
+                            <property
+                              dataType="System.Null"
+                              description="Name of the reference table column with which the input column should be matched."
+                              name="JoinToReferenceColumn"
+                              state="escaped" />
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies whether the match is a fuzzy or an exact match."
+                              name="JoinType"
+                              typeConverter="tcJoinType">2</property>
+                            <property
+                              dataType="System.Single"
+                              description="Specifies the minimum textual similarity required between input and fuzzy matched records on values in this particular join column.  Must be a floating point value between 0.0 and 1.0."
+                              name="MinSimilarity">0</property>
+                            <property
+                              dataType="System.UInt32"
+                              description="Specifies the comparison options for character data. The options are those supported by the FoldString function."
+                              name="FuzzyComparisonFlags"
+                              typeConverter="tcComparisonFlags">1</property>
+                            <property
+                              dataType="System.UInt32"
+                              description="Flags to FoldString that should be used when comparing whether two strings are equivalent."
+                              name="FuzzyComparisonFlagsEx"
+                              typeConverter="tcComparisonFlagsEx">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Inputs[Fuzzy Lookup Input].Columns[DC_LeadSource]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="255"
+                          cachedName="DC_LeadSource"
+                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column.Outputs[Derived Column Output].Columns[DC_LeadSource]">
+                          <properties>
+                            <property
+                              dataType="System.Null"
+                              description="Name of the reference table column with which the input column should be matched."
+                              name="JoinToReferenceColumn"
+                              state="escaped" />
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies whether the match is a fuzzy or an exact match."
+                              name="JoinType"
+                              typeConverter="tcJoinType">2</property>
+                            <property
+                              dataType="System.Single"
+                              description="Specifies the minimum textual similarity required between input and fuzzy matched records on values in this particular join column.  Must be a floating point value between 0.0 and 1.0."
+                              name="MinSimilarity">0</property>
+                            <property
+                              dataType="System.UInt32"
+                              description="Specifies the comparison options for character data. The options are those supported by the FoldString function."
+                              name="FuzzyComparisonFlags"
+                              typeConverter="tcComparisonFlags">1</property>
+                            <property
+                              dataType="System.UInt32"
+                              description="Flags to FoldString that should be used when comparing whether two strings are equivalent."
+                              name="FuzzyComparisonFlagsEx"
+                              typeConverter="tcComparisonFlagsEx">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Inputs[Fuzzy Lookup Input].Columns[MarketSourceName]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="100"
+                          cachedName="MarketSourceName"
+                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Lookup 1.Outputs[Lookup Match Output].Columns[MarketSourceName]">
                           <properties>
                             <property
                               dataType="System.Null"
@@ -4699,40 +4964,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Inputs[Fuzzy Lookup Input].Columns[DC_MarketSource]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="7"
-                          cachedName="DC_MarketSource"
-                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column.Outputs[Derived Column Output].Columns[DC_MarketSource]">
-                          <properties>
-                            <property
-                              dataType="System.Null"
-                              description="Name of the reference table column with which the input column should be matched."
-                              name="JoinToReferenceColumn"
-                              state="escaped" />
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether the match is a fuzzy or an exact match."
-                              name="JoinType"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum textual similarity required between input and fuzzy matched records on values in this particular join column.  Must be a floating point value between 0.0 and 1.0."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.UInt32"
-                              description="Specifies the comparison options for character data. The options are those supported by the FoldString function."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                            <property
-                              dataType="System.UInt32"
-                              description="Flags to FoldString that should be used when comparing whether two strings are equivalent."
-                              name="FuzzyComparisonFlagsEx"
-                              typeConverter="tcComparisonFlagsEx">0</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
                           refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Inputs[Fuzzy Lookup Input].Columns[ApplicationReturnedDate]"
                           cachedDataType="dbTimeStamp"
                           cachedName="ApplicationReturnedDate"
@@ -5250,71 +5481,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                           cachedLength="4000"
                           cachedName="LoanOfficerEmail"
                           lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Source.Outputs[OLE DB Source Output].Columns[LoanOfficerEmail]">
-                          <properties>
-                            <property
-                              dataType="System.Null"
-                              description="Name of the reference table column with which the input column should be matched."
-                              name="JoinToReferenceColumn"
-                              state="escaped" />
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether the match is a fuzzy or an exact match."
-                              name="JoinType"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum textual similarity required between input and fuzzy matched records on values in this particular join column.  Must be a floating point value between 0.0 and 1.0."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.UInt32"
-                              description="Specifies the comparison options for character data. The options are those supported by the FoldString function."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                            <property
-                              dataType="System.UInt32"
-                              description="Flags to FoldString that should be used when comparing whether two strings are equivalent."
-                              name="FuzzyComparisonFlagsEx"
-                              typeConverter="tcComparisonFlagsEx">0</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Inputs[Fuzzy Lookup Input].Columns[DC_LoanOfficer]"
-                          cachedDataType="wstr"
-                          cachedLength="101"
-                          cachedName="DC_LoanOfficer"
-                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column.Outputs[Derived Column Output].Columns[DC_LoanOfficer]">
-                          <properties>
-                            <property
-                              dataType="System.Null"
-                              description="Name of the reference table column with which the input column should be matched."
-                              name="JoinToReferenceColumn"
-                              state="escaped" />
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether the match is a fuzzy or an exact match."
-                              name="JoinType"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum textual similarity required between input and fuzzy matched records on values in this particular join column.  Must be a floating point value between 0.0 and 1.0."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.UInt32"
-                              description="Specifies the comparison options for character data. The options are those supported by the FoldString function."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                            <property
-                              dataType="System.UInt32"
-                              description="Flags to FoldString that should be used when comparing whether two strings are equivalent."
-                              name="FuzzyComparisonFlagsEx"
-                              typeConverter="tcComparisonFlagsEx">0</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Inputs[Fuzzy Lookup Input].Columns[FundedTier]"
-                          cachedDataType="i4"
-                          cachedName="FundedTier"
-                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column.Outputs[Derived Column Output].Columns[FundedTier]">
                           <properties>
                             <property
                               dataType="System.Null"
@@ -6073,74 +6239,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Inputs[Fuzzy Lookup Input].Columns[DC_LeadId]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="132"
-                          cachedName="DC_LeadId"
-                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column.Outputs[Derived Column Output].Columns[DC_LeadId]">
-                          <properties>
-                            <property
-                              dataType="System.Null"
-                              description="Name of the reference table column with which the input column should be matched."
-                              name="JoinToReferenceColumn"
-                              state="escaped" />
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether the match is a fuzzy or an exact match."
-                              name="JoinType"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum textual similarity required between input and fuzzy matched records on values in this particular join column.  Must be a floating point value between 0.0 and 1.0."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.UInt32"
-                              description="Specifies the comparison options for character data. The options are those supported by the FoldString function."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                            <property
-                              dataType="System.UInt32"
-                              description="Flags to FoldString that should be used when comparing whether two strings are equivalent."
-                              name="FuzzyComparisonFlagsEx"
-                              typeConverter="tcComparisonFlagsEx">0</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Inputs[Fuzzy Lookup Input].Columns[DC_LeadSource]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="255"
-                          cachedName="DC_LeadSource"
-                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column.Outputs[Derived Column Output].Columns[DC_LeadSource]">
-                          <properties>
-                            <property
-                              dataType="System.Null"
-                              description="Name of the reference table column with which the input column should be matched."
-                              name="JoinToReferenceColumn"
-                              state="escaped" />
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether the match is a fuzzy or an exact match."
-                              name="JoinType"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum textual similarity required between input and fuzzy matched records on values in this particular join column.  Must be a floating point value between 0.0 and 1.0."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.UInt32"
-                              description="Specifies the comparison options for character data. The options are those supported by the FoldString function."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                            <property
-                              dataType="System.UInt32"
-                              description="Flags to FoldString that should be used when comparing whether two strings are equivalent."
-                              name="FuzzyComparisonFlagsEx"
-                              typeConverter="tcComparisonFlagsEx">0</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
                           refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Inputs[Fuzzy Lookup Input].Columns[LoanID]"
                           cachedCodepage="1252"
                           cachedDataType="str"
@@ -6213,40 +6311,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                           cachedLength="101"
                           cachedName="LoanOfficer"
                           lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Source.Outputs[OLE DB Source Output].Columns[LoanOfficer]">
-                          <properties>
-                            <property
-                              dataType="System.Null"
-                              description="Name of the reference table column with which the input column should be matched."
-                              name="JoinToReferenceColumn"
-                              state="escaped" />
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether the match is a fuzzy or an exact match."
-                              name="JoinType"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum textual similarity required between input and fuzzy matched records on values in this particular join column.  Must be a floating point value between 0.0 and 1.0."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.UInt32"
-                              description="Specifies the comparison options for character data. The options are those supported by the FoldString function."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                            <property
-                              dataType="System.UInt32"
-                              description="Flags to FoldString that should be used when comparing whether two strings are equivalent."
-                              name="FuzzyComparisonFlagsEx"
-                              typeConverter="tcComparisonFlagsEx">0</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Inputs[Fuzzy Lookup Input].Columns[MarketSourceName]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="100"
-                          cachedName="MarketSourceName"
-                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Lookup 1.Outputs[Lookup Match Output].Columns[MarketSourceName]">
                           <properties>
                             <property
                               dataType="System.Null"
@@ -9194,8 +9258,8 @@ where [refTable].[MarketSourceCode] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Destination.Connections[OleDbConnection]"
-                      connectionManagerID="Package.ConnectionManagers[DESKTOP-L2Q54LN\DEV.STGQL]"
-                      connectionManagerRefId="Package.ConnectionManagers[DESKTOP-L2Q54LN\DEV.STGQL]"
+                      connectionManagerID="{7A61B3E5-C379-4C17-97D0-2B2819D9BAB7}:external"
+                      connectionManagerRefId="Project.ConnectionManagers[DESKTOP-L2Q54LN.STGQL]"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -9716,12 +9780,6 @@ where [refTable].[MarketSourceCode] = ?</property>
                           externalMetadataColumnId="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LeadSource]"
                           lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[DC_LeadSource]" />
                         <inputColumn
-                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[LockExpireDate]"
-                          cachedDataType="dbTimeStamp"
-                          cachedName="LockExpireDate"
-                          externalMetadataColumnId="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LoanExpirationDate]"
-                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[LockExpireDate]" />
-                        <inputColumn
                           refId="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[LoanID]"
                           cachedCodepage="1252"
                           cachedDataType="str"
@@ -9937,6 +9995,34 @@ where [refTable].[MarketSourceCode] = ?</property>
                           cachedName="LoanOfficer"
                           externalMetadataColumnId="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LoanOfficerFullName]"
                           lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[LoanOfficer]" />
+                        <inputColumn
+                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Loan_Processor_Name]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="128"
+                          cachedName="Loan_Processor_Name"
+                          externalMetadataColumnId="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ProcessorFullName]"
+                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Loan_Processor_Name]" />
+                        <inputColumn
+                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[LoanExpirationDate]"
+                          cachedDataType="dbTimeStamp"
+                          cachedName="LoanExpirationDate"
+                          externalMetadataColumnId="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LoanExpirationDate]"
+                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[LoanExpirationDate]" />
+                        <inputColumn
+                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[LockExpireDate]"
+                          cachedDataType="dbTimeStamp"
+                          cachedName="LockExpireDate"
+                          externalMetadataColumnId="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LockExpireDate]"
+                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[LockExpireDate]" />
+                        <inputColumn
+                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Insurance_Company]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="128"
+                          cachedName="Insurance_Company"
+                          externalMetadataColumnId="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Insurance_Company]"
+                          lineageId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Insurance_Company]" />
                       </inputColumns>
                       <externalMetadataColumns
                         isUsed="True">
@@ -10476,6 +10562,12 @@ where [refTable].[MarketSourceCode] = ?</property>
                           dataType="str"
                           length="100"
                           name="MarketSourceName" />
+                        <externalMetadataColumn
+                          refId="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Insurance_Company]"
+                          codePage="1252"
+                          dataType="str"
+                          length="128"
+                          name="Insurance_Company" />
                       </externalMetadataColumns>
                     </input>
                   </inputs>
@@ -10555,8 +10647,8 @@ where [refTable].[MarketSourceCode] = ?</property>
                   <connections>
                     <connection
                       refId="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Source.Connections[OleDbConnection]"
-                      connectionManagerID="Package.ConnectionManagers[DESKTOP-L2Q54LN\NEW2019.SimpleNexus]"
-                      connectionManagerRefId="Package.ConnectionManagers[DESKTOP-L2Q54LN\NEW2019.SimpleNexus]"
+                      connectionManagerID="{140CCB4B-6AC8-4C14-BCE6-C87E1995A55C}:external"
+                      connectionManagerRefId="Project.ConnectionManagers[DESKTOP-L2Q54LN.SimpleNexus]"
                       description="The OLE DB runtime connection used to access the database."
                       name="OleDbConnection" />
                   </connections>
@@ -12529,8 +12621,13 @@ where [refTable].[MarketSourceCode] = ?</property>
                   name="Derived Column Output"
                   startId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column 4.Outputs[Derived Column Output]" />
                 <path
-                  refId="Package\Sequence Container\DataFlowTask_SimpleNexus.Paths[Fuzzy Lookup Output]"
+                  refId="Package\Sequence Container\DataFlowTask_SimpleNexus.Paths[Derived Column Output2]"
                   endId="Package\Sequence Container\DataFlowTask_SimpleNexus\Row Count.Inputs[Row Count Input 1]"
+                  name="Derived Column Output"
+                  startId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column 1.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Sequence Container\DataFlowTask_SimpleNexus.Paths[Fuzzy Lookup Output]"
+                  endId="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column 1.Inputs[Derived Column Input]"
                   name="Fuzzy Lookup Output"
                   startId="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup.Outputs[Fuzzy Lookup Output]" />
                 <path
@@ -12566,11 +12663,11 @@ where [refTable].[MarketSourceCode] = ?</property>
           DTS:LocaleID="-1"
           DTS:ObjectName="Execute SQL Task_Handling_Null_Company"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
-              SQLTask:Connection="{B3953A5E-5520-4753-B934-938BD2023A98}"
+              SQLTask:Connection="{7A61B3E5-C379-4C17-97D0-2B2819D9BAB7}"
               SQLTask:SqlStatementSource="if exists&#xA;(select 1&#xA; From [dbo].[Stg_Fitsum_Agegnehu_QL]&#xA;--Where MortgageInsuranceCompany LIKE  '%RHS%'&#xA;Where Insurance_Company IS NULL&#xA; )&#xA; begin&#xA;Insert into [MortgageInsuranceCompanyCrossWalkReference] ( [MortgageInsuranceCompany], [Insurance_Company] )&#xA;Select DISTINCT MortgageInsuranceCompany,&#xA; MortgageInsuranceCompany   as Insurance_Company&#xA;From [dbo].[Stg_Fitsum_Agegnehu_QL]&#xA;--Where MortgageInsuranceCompany LIKE  '%RHS%'&#xA;Where Insurance_Company IS NULL&#xA;end" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
           </DTS:ObjectData>
         </DTS:Executable>
@@ -12588,19 +12685,20 @@ where [refTable].[MarketSourceCode] = ?</property>
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
               SQLTask:Connection="{A7A80A4A-8B58-4A01-8496-53632ED6E3DF}"
-              SQLTask:SqlStatementSource="USE [master]&#xA;RESTORE DATABASE [SimpleNexus] FROM  DISK = N'C:\Project2020\BulkFiles\Unzip\SimpleNexus.bak' WITH  FILE = 1,  MOVE N'SimpleNexus' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.NEW2019\MSSQL\DATA\SimpleNexus.mdf',  MOVE N'SimpleNexus_log' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.NEW2019\MSSQL\DATA\SimpleNexus_log.ldf',  NOUNLOAD,  REPLACE,  STATS = 5&#xA;&#xA;GO&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+              SQLTask:SqlStatementSource="USE [master]&#xA;RESTORE DATABASE [SimpleNexus] FROM  DISK = N'C:\Project2020\BulkFiles\Unzip\SimpleNexus.bak' WITH  FILE = 1,  MOVE N'SimpleNexus' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\SimpleNexus.mdf',  MOVE N'SimpleNexus_log' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\SimpleNexus_log.ldf',  NOUNLOAD,  REPLACE,  STATS=5 &#xA;&#xA;GO&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
           DTS:refId="Package\Sequence Container\Execute SQLTask_Delete"
           DTS:CreationName="Microsoft.ExecuteSQLTask"
           DTS:Description="Execute SQL Task"
+          DTS:Disabled="True"
           DTS:DTSID="{825F475A-C0D1-43BA-A820-4ABFC81C47E5}"
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Execute SQLTask_Delete"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -12617,24 +12715,24 @@ where [refTable].[MarketSourceCode] = ?</property>
           DTS:LocaleID="-1"
           DTS:ObjectName="Execute SQLTask_MAXLastModifiedDate"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
-              SQLTask:Connection="{B3953A5E-5520-4753-B934-938BD2023A98}"
+              SQLTask:Connection="{7A61B3E5-C379-4C17-97D0-2B2819D9BAB7}"
               SQLTask:SqlStatementSource="SELECT MAX(LastModifiedDate) AS MaxLastModifiedDate&#xA;    FROM [dbo].[Stg_Fitsum_Agegnehu_QL]&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
           DTS:refId="Package\Sequence Container\FileSystemTask_DeleteBackfile"
           DTS:CreationName="Microsoft.FileSystemTask"
-          DTS:Description="C:\Project2020\BulkFiles\Archive\SimpleNexus_2020-10-06-20-49-13.zip"
+          DTS:Description="C:\Project2020\BulkFiles\Archive\SimpleNexus_2020-10-09-00-43-21.zip"
           DTS:DTSID="{8C1DC3B2-F11C-4155-9B5E-BD57076D1378}"
           DTS:ExecutableType="Microsoft.FileSystemTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="FileSystemTask_DeleteBackfile"
           DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:PropertyExpression
             DTS:Name="Description">@[User::varArchive] +"\\"+REPLACE( @[User::varFileName],".zip","_")+REPLACE(SUBSTRING(REPLACE((DT_WSTR,50)GETDATE()," ","-"),1,19),":","-")+".zip"</DTS:PropertyExpression>
@@ -12679,6 +12777,14 @@ where [refTable].[MarketSourceCode] = ?</property>
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint 3"
           DTS:To="Package\Sequence Container\FileSystemTask_DeleteBackfile" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Sequence Container.PrecedenceConstraints[Constraint 4]"
+          DTS:CreationName=""
+          DTS:DTSID="{616E9A4F-C9AE-4153-97FF-C93A90B7C985}"
+          DTS:From="Package\Sequence Container\Execute SQL Task_RestoreSimplenexus"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint 4"
+          DTS:To="Package\Sequence Container\Execute SQLTask_MAXLastModifiedDate" />
       </DTS:PrecedenceConstraints>
     </DTS:Executable>
   </DTS:Executables>
@@ -12827,6 +12933,15 @@ where [refTable].[MarketSourceCode] = ?</property>
               ReadOnlyVariables="System::PackageName,User::varFromEmail,User::varPassword,User::varSmtpClient,User::varSmtpServerPort,User::varSubject,User::varToEmail"
               ReadWriteVariables="System::ErrorCode,System::ErrorDescription,User::varTimeStamp">
               <ProjectItem
+                Name="Properties\Settings.settings"
+                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
+              <ProjectItem
                 Name="Properties\Resources.resx"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <root>
@@ -12945,35 +13060,6 @@ where [refTable].[MarketSourceCode] = ?</property>
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
-              <ProjectItem
-                Name="Properties\Settings.Designer.cs"
-                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_7edfe4dab2a64aee97f1223d4ccb6969.Properties.Settings.get_Default():ST_7edfe4dab2a64aee97f1223d4ccb6969.Properties.Sett" +
-    "ings")]
-
-namespace ST_7edfe4dab2a64aee97f1223d4ccb6969.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
               <ProjectItem
                 Name="ST_7edfe4dab2a64aee97f1223d4ccb6969.csproj"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -13229,6 +13315,35 @@ namespace ST_7edfe4dab2a64aee97f1223d4ccb6969
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
               <ProjectItem
+                Name="Properties\Settings.Designer.cs"
+                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_7edfe4dab2a64aee97f1223d4ccb6969.Properties.Settings.get_Default():ST_7edfe4dab2a64aee97f1223d4ccb6969.Properties.Sett" +
+    "ings")]
+
+namespace ST_7edfe4dab2a64aee97f1223d4ccb6969.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
+              <ProjectItem
                 Name="Properties\AssemblyInfo.cs"
                 Encoding="UTF8"><![CDATA[using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -13258,15 +13373,6 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
-              <ProjectItem
-                Name="Properties\Settings.settings"
-                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Resources.Designer.cs"
                 Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -13563,13 +13669,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           Id="Package\Sequence Container\DataFlowTask_SimpleNexus"
           TopLeft="34.8333210026226,241.229156249637" />
         <NodeLayout
-          Size="264,42.6666666666667"
-          Id="Package\Sequence Container\Execute SQL Task_RestoreSimplenexus"
-          TopLeft="112.479158727142,11.6041653445612" />
-        <NodeLayout
           Size="284,42.6666666666667"
           Id="Package\Sequence Container\Execute SQL Task_Handling_Null_Company"
           TopLeft="32.7916550717009,324.944436734583" />
+        <NodeLayout
+          Size="264,42.6666666666667"
+          Id="Package\Sequence Container\Execute SQL Task_RestoreSimplenexus"
+          TopLeft="112.479158727142,11.6041653445612" />
         <NodeLayout
           Size="196.666666666667,42.6666666666667"
           Id="Package\Sequence Container\Execute SQLTask_Delete"
@@ -13706,11 +13812,45 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sequence Container.PrecedenceConstraints[Constraint 4]"
+          TopLeft="244.479158727142,54.2708320112279">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-46.3824453034347,31.8636841545751"
+              Start="0,0"
+              End="-46.3824453034347,24.3636841545751">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,11.9318420772876" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,11.9318420772876"
+                    Point2="0,15.9318420772876"
+                    Point3="-4,15.9318420772876" />
+                  <mssgle:LineSegment
+                    End="-42.3824453034347,15.9318420772876" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-42.3824453034347,15.9318420772876"
+                    Point2="-46.3824453034347,15.9318420772876"
+                    Point3="-46.3824453034347,19.9318420772876" />
+                  <mssgle:LineSegment
+                    End="-46.3824453034347,24.3636841545751" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="414.666666666667,498"
-          Size="414.666666666667,541.333333333334"
+          PanelSize="414.666666666667,498.666666666667"
+          Size="414.666666666667,542"
           Id="Package\Sequence Container"
           TopLeft="765.333322604498,377.699995606542" />
         <EdgeLayout
@@ -13755,9 +13895,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="126.249994579704,218.173511788084"
+              EndConnector="126.249994579704,218.840178454751"
               Start="0,0"
-              End="118.749994579704,218.173511788084">
+              End="118.749994579704,218.840178454751">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -13768,13 +13908,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                     Point2="63.1249972898518,0"
                     Point3="63.1249972898518,4" />
                   <mssgle:LineSegment
-                    End="63.1249972898518,214.173511788084" />
+                    End="63.1249972898518,214.840178454751" />
                   <mssgle:CubicBezierSegment
-                    Point1="63.1249972898518,214.173511788084"
-                    Point2="63.1249972898518,218.173511788084"
-                    Point3="67.1249972898518,218.173511788084" />
+                    Point1="63.1249972898518,214.840178454751"
+                    Point2="63.1249972898518,218.840178454751"
+                    Point3="67.1249972898518,218.840178454751" />
                   <mssgle:LineSegment
-                    End="118.749994579704,218.173511788084" />
+                    End="118.749994579704,218.840178454751" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13785,30 +13925,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="972.666655937831,918.366662273209">
+          TopLeft="972.666655937831,919.699995606542">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-15.7678560372444,26.5166643481734"
+              EndConnector="-15.767856037244,25.1833310148401"
               Start="0,0"
-              End="-15.7678560372444,19.0166643481734">
+              End="-15.767856037244,17.6833310148401">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,9.25833217408672" />
+                    End="0,8.59166550742003" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,9.25833217408672"
-                    Point2="0,13.2583321740867"
-                    Point3="-4,13.2583321740867" />
+                    Point1="0,8.59166550742003"
+                    Point2="0,12.59166550742"
+                    Point3="-4,12.59166550742" />
                   <mssgle:LineSegment
-                    End="-11.7678560372444,13.2583321740867" />
+                    End="-11.767856037244,12.59166550742" />
                   <mssgle:CubicBezierSegment
-                    Point1="-11.7678560372444,13.2583321740867"
-                    Point2="-15.7678560372444,13.2583321740867"
-                    Point3="-15.7678560372444,17.2583321740867" />
+                    Point1="-11.767856037244,12.59166550742"
+                    Point2="-15.767856037244,12.59166550742"
+                    Point3="-15.767856037244,16.59166550742" />
                   <mssgle:LineSegment
-                    End="-15.7678560372444,19.0166643481734" />
+                    End="-15.767856037244,17.6833310148401" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13912,95 +14052,63 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="131.333333333334,42.6666666666667"
-          Id="Package\Sequence Container\DataFlowTask_SimpleNexus\Row Count"
-          TopLeft="337.812494966202,495.58749146007" />
-        <NodeLayout
-          Size="154.666666666667,42.6666666666667"
-          Id="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column"
-          TopLeft="103.906248451676,200.462496486977" />
-        <NodeLayout
-          Size="156,42.6666666666667"
-          Id="Package\Sequence Container\DataFlowTask_SimpleNexus\Conditional Split"
-          TopLeft="154.06249770429,114.824998018295" />
-        <NodeLayout
-          Size="144,42.6666666666667"
-          Id="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup"
-          TopLeft="97.9687485401521,480.44999148041" />
+          Size="165.333333333334,42.6666666666667"
+          Id="Package\Sequence Container\DataFlowTask_SimpleNexus\Conditional Split 1"
+          TopLeft="331.249995063991,47.6333326127131" />
         <NodeLayout
           Size="172,42.6666666666667"
           Id="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Destination"
-          TopLeft="489.999992698431,304.299994630218" />
+          TopLeft="503.124992502853,370.783326905867" />
         <NodeLayout
           Size="164,42.6666666666667"
           Id="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column 4"
-          TopLeft="94.0624985983596,380.999993258715" />
+          TopLeft="94.0624985983596,387.683326603671" />
+        <NodeLayout
+          Size="154.666666666667,42.6666666666667"
+          Id="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column"
+          TopLeft="115.156248284038,214.945829692458" />
+        <NodeLayout
+          Size="131.333333333334,42.6666666666667"
+          Id="Package\Sequence Container\DataFlowTask_SimpleNexus\Row Count"
+          TopLeft="439.687493448146,478.220825235074" />
         <NodeLayout
           Size="122.666666666667,42.6666666666667"
           Id="Package\Sequence Container\DataFlowTask_SimpleNexus\Lookup 1"
-          TopLeft="137.49999795109,293.087494830712" />
+          TopLeft="137.49999795109,299.770828175668" />
+        <NodeLayout
+          Size="144,42.6666666666667"
+          Id="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup"
+          TopLeft="91.7187486332843,487.783324813743" />
+        <NodeLayout
+          Size="156,42.6666666666667"
+          Id="Package\Sequence Container\DataFlowTask_SimpleNexus\Conditional Split"
+          TopLeft="162.812497573905,126.058331281891" />
         <EdgeLayout
-          Id="Package\Sequence Container\DataFlowTask_SimpleNexus.Paths[BorrFirstorLastName_NotTest]"
-          TopLeft="232.06249770429,157.491664684961">
+          Id="Package\Sequence Container\DataFlowTask_SimpleNexus.Paths[Derived Column Output1]"
+          TopLeft="176.06249859836,430.349993270338">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-50.8229159192803,42.9708318020154"
+              EndConnector="-12.3437499650752,57.4333315434054"
               Start="0,0"
-              End="-50.8229159192803,35.4708318020154">
+              End="-12.3437499650752,49.9333315434054">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,17.4854159010077" />
+                    End="0,24.7166657717027" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,17.4854159010077"
-                    Point2="0,21.4854159010077"
-                    Point3="-4,21.4854159010077" />
+                    Point1="0,24.7166657717027"
+                    Point2="0,28.7166657717027"
+                    Point3="-4,28.7166657717027" />
                   <mssgle:LineSegment
-                    End="-46.8229159192803,21.4854159010077" />
+                    End="-8.34374996507523,28.7166657717027" />
                   <mssgle:CubicBezierSegment
-                    Point1="-46.8229159192803,21.4854159010077"
-                    Point2="-50.8229159192803,21.4854159010077"
-                    Point3="-50.8229159192803,25.4854159010077" />
+                    Point1="-8.34374996507523,28.7166657717027"
+                    Point2="-12.3437499650752,28.7166657717027"
+                    Point3="-12.3437499650752,32.7166657717027" />
                   <mssgle:LineSegment
-                    End="-50.8229159192803,35.4708318020154" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-90.9678446783902,26.4854159010077,131.1127734375,10.7841796875"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Sequence Container\DataFlowTask_SimpleNexus.Paths[Row Count Output 1]"
-          TopLeft="403.479161632869,495.58749146007">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="172.520831065562,-148.620830163186"
-              Start="0,0"
-              End="172.520831065562,-141.120830163186">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-70.3104150815929" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-70.3104150815929"
-                    Point2="0,-74.3104150815929"
-                    Point3="4,-74.3104150815929" />
-                  <mssgle:LineSegment
-                    End="168.520831065562,-74.3104150815929" />
-                  <mssgle:CubicBezierSegment
-                    Point1="168.520831065562,-74.3104150815929"
-                    Point2="172.520831065562,-74.3104150815929"
-                    Point3="172.520831065562,-78.3104150815929" />
-                  <mssgle:LineSegment
-                    End="172.520831065562,-141.120830163186" />
+                    End="-12.3437499650752,49.9333315434054" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14010,8 +14118,66 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\Sequence Container\DataFlowTask_SimpleNexus.Paths[Derived Column Output]"
+          TopLeft="195.661456450897,257.612496359125">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,42.1583318165431"
+              Start="0,0"
+              End="0,34.6583318165431">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.6583318165431" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sequence Container\DataFlowTask_SimpleNexus.Paths[BorrFirstorLastName_NotTest]"
+          TopLeft="240.812497573905,168.724997948558">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-48.3229159565335,46.2208317439008"
+              Start="0,0"
+              End="-48.3229159565335,38.7208317439008">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.1104158719504" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.1104158719504"
+                    Point2="0,23.1104158719504"
+                    Point3="-4,23.1104158719504" />
+                  <mssgle:LineSegment
+                    End="-44.3229159565335,23.1104158719504" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-44.3229159565335,23.1104158719504"
+                    Point2="-48.3229159565335,23.1104158719504"
+                    Point3="-48.3229159565335,27.1104158719504" />
+                  <mssgle:LineSegment
+                    End="-48.3229159565335,38.7208317439008" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-89.7178446970168,28.1104158719504,131.1127734375,10.7841796875"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package\Sequence Container\DataFlowTask_SimpleNexus.Paths[Lookup Match Output]"
-          TopLeft="198.833331284423,335.754161497379">
+          TopLeft="198.833331284423,342.437494842335">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -14046,137 +14212,109 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container\DataFlowTask_SimpleNexus.Paths[Fuzzy Lookup Output]"
-          TopLeft="241.968748540152,501.783324813743">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="95.84374642605,15.1374999796607"
-              Start="0,0"
-              End="88.34374642605,15.1374999796607">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="43.921873213025,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="43.921873213025,0"
-                    Point2="47.921873213025,0"
-                    Point3="47.921873213025,4" />
-                  <mssgle:LineSegment
-                    End="47.921873213025,11.1374999796607" />
-                  <mssgle:CubicBezierSegment
-                    Point1="47.921873213025,11.1374999796607"
-                    Point2="47.921873213025,15.1374999796607"
-                    Point3="51.921873213025,15.1374999796607" />
-                  <mssgle:LineSegment
-                    End="88.34374642605,15.1374999796607" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="150.666666666667,42.6666666666667"
-          Id="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Source"
-          TopLeft="132.999998100102,11.9999998837709" />
-        <NodeLayout
-          Size="165.333333333334,42.6666666666667"
-          Id="Package\Sequence Container\DataFlowTask_SimpleNexus\Conditional Split 1"
-          TopLeft="324.999995157123,55.8999990004301" />
-        <EdgeLayout
-          Id="Package\Sequence Container\DataFlowTask_SimpleNexus.Paths[OLE DB Source Output]"
-          TopLeft="283.666664766769,33.3333332171043">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="41.333330390354,43.8999991166592"
-              Start="0,0"
-              End="33.833330390354,43.8999991166592">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="16.666665195177,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="16.666665195177,0"
-                    Point2="20.666665195177,0"
-                    Point3="20.666665195177,4" />
-                  <mssgle:LineSegment
-                    End="20.666665195177,39.8999991166592" />
-                  <mssgle:CubicBezierSegment
-                    Point1="20.666665195177,39.8999991166592"
-                    Point2="20.666665195177,43.8999991166592"
-                    Point3="24.666665195177,43.8999991166592" />
-                  <mssgle:LineSegment
-                    End="33.833330390354,43.8999991166592" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\Sequence Container\DataFlowTask_SimpleNexus.Paths[IncrimentalLode]"
-          TopLeft="324.999995157123,83.0111101115412">
+          TopLeft="413.916661730657,90.2999992793798">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-92.9374974528327,31.8138879067534"
+              EndConnector="-173.104164156753,35.7583320025111"
               Start="0,0"
-              End="-92.9374974528327,24.3138879067534">
+              End="-173.104164156753,28.2583320025111">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-88.9374974528327,0" />
+                    End="0,13.8791660012555" />
                   <mssgle:CubicBezierSegment
-                    Point1="-88.9374974528327,0"
-                    Point2="-92.9374974528327,0"
-                    Point3="-92.9374974528327,4" />
+                    Point1="0,13.8791660012555"
+                    Point2="0,17.8791660012555"
+                    Point3="-4,17.8791660012555" />
                   <mssgle:LineSegment
-                    End="-92.9374974528327,24.3138879067534" />
+                    End="-169.104164156753,17.8791660012555" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-169.104164156753,17.8791660012555"
+                    Point2="-173.104164156753,17.8791660012555"
+                    Point3="-173.104164156753,21.8791660012555" />
+                  <mssgle:LineSegment
+                    End="-173.104164156753,28.2583320025111" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-129.145446671583,-15.7490234375,72.4158984375,9.7490234375"
+              BoundingBox="-122.760031297126,22.8791660012555,72.4158984375,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="150.666666666667,42.6666666666667"
+          Id="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Source"
+          TopLeft="41.1249994691461,21.3096084509854" />
         <EdgeLayout
-          Id="Package\Sequence Container\DataFlowTask_SimpleNexus.Paths[Derived Column Output]"
-          TopLeft="181.23958178501,243.129163153643">
+          Id="Package\Sequence Container\DataFlowTask_SimpleNexus.Paths[OLE DB Source Output]"
+          TopLeft="191.791666135813,42.6429417843187">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="17.5937494994136,49.958331677069"
+              EndConnector="139.458328928178,26.3237241617277"
               Start="0,0"
-              End="17.5937494994136,42.458331677069">
+              End="131.958328928178,26.3237241617277">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,20.9791658385345" />
+                    End="65.7291644640891,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,20.9791658385345"
-                    Point2="0,24.9791658385345"
-                    Point3="4,24.9791658385345" />
+                    Point1="65.7291644640891,0"
+                    Point2="69.7291644640891,0"
+                    Point3="69.7291644640891,4" />
                   <mssgle:LineSegment
-                    End="13.5937494994136,24.9791658385345" />
+                    End="69.7291644640891,22.3237241617277" />
                   <mssgle:CubicBezierSegment
-                    Point1="13.5937494994136,24.9791658385345"
-                    Point2="17.5937494994136,24.9791658385345"
-                    Point3="17.5937494994136,28.9791658385345" />
+                    Point1="69.7291644640891,22.3237241617277"
+                    Point2="69.7291644640891,26.3237241617277"
+                    Point3="73.7291644640891,26.3237241617277" />
                   <mssgle:LineSegment
-                    End="17.5937494994136,42.458331677069" />
+                    End="131.958328928178,26.3237241617277" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="164,42.6666666666667"
+          Id="Package\Sequence Container\DataFlowTask_SimpleNexus\Derived Column 1"
+          TopLeft="271.24999595806,445.649996501505" />
+        <EdgeLayout
+          Id="Package\Sequence Container\DataFlowTask_SimpleNexus.Paths[Fuzzy Lookup Output]"
+          TopLeft="235.718748633284,509.116658147076">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="35.5312473247756,-42.1333283122376"
+              Start="0,0"
+              End="28.0312473247756,-42.1333283122376">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="13.7656236623878,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="13.7656236623878,0"
+                    Point2="17.7656236623878,0"
+                    Point3="17.7656236623878,-4" />
+                  <mssgle:LineSegment
+                    End="17.7656236623878,-38.1333283122376" />
+                  <mssgle:CubicBezierSegment
+                    Point1="17.7656236623878,-38.1333283122376"
+                    Point2="17.7656236623878,-42.1333283122376"
+                    Point3="21.7656236623878,-42.1333283122376" />
+                  <mssgle:LineSegment
+                    End="28.0312473247756,-42.1333283122376" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14186,19 +14324,59 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container\DataFlowTask_SimpleNexus.Paths[Derived Column Output1]"
-          TopLeft="173.015623569256,423.666659925382">
+          Id="Package\Sequence Container\DataFlowTask_SimpleNexus.Paths[Derived Column Output2]"
+          TopLeft="435.24999595806,455.720825235074">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,56.7833315550281"
+              EndConnector="70.104164156753,22.5"
               Start="0,0"
-              End="0,49.2833315550281">
+              End="70.104164156753,15">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,49.2833315550281" />
+                    End="66.104164156753,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="66.104164156753,0"
+                    Point2="70.104164156753,0"
+                    Point3="70.104164156753,4" />
+                  <mssgle:LineSegment
+                    End="70.104164156753,15" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sequence Container\DataFlowTask_SimpleNexus.Paths[Row Count Output 1]"
+          TopLeft="525.909715670369,478.220825235074">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="63.2152768324845,-64.77083166254"
+              Start="0,0"
+              End="63.2152768324845,-57.27083166254">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-22.3760859127294" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-22.3760859127294"
+                    Point2="0,-26.3760859127294"
+                    Point3="4,-26.3760859127294" />
+                  <mssgle:LineSegment
+                    End="59.2152768324845,-26.3760859127294" />
+                  <mssgle:CubicBezierSegment
+                    Point1="59.2152768324845,-26.3760859127294"
+                    Point2="63.2152768324845,-26.3760859127294"
+                    Point3="63.2152768324845,-30.3760859127294" />
+                  <mssgle:LineSegment
+                    End="63.2152768324845,-57.27083166254" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14210,19 +14388,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Sequence Container\DataFlowTask_SimpleNexus\OLE DB Destination">
     <Properties>
@@ -14242,7 +14407,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -14252,10 +14417,23 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Sequence Container\DataFlowTask_SimpleNexus\Fuzzy Lookup">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
